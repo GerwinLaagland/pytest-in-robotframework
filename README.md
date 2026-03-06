@@ -158,7 +158,7 @@ This project is intended to preserve normal pytest behavior for decorated tests.
 
 The main use case is mixed execution: Robot Framework stays the primary test runner, while selected Python-based checks run through pytest under the hood.
 
-The project started as a proof of concept, but after roughly two years in the open and relatively few reported issues, it is production-usable.
+The project started as a proof of concept, and has been a few years in the open with few reported issues, it is production-usable.
 
 ## Roadmap
 
