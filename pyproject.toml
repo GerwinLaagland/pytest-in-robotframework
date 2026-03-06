@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytest-in-robotframework"
+version = "0.0.14"
+description = "The extension enables easy execution of pytest tests within the Robot Framework environment."
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Petr Kus", email = "petrkus@email.cz" }]
+dependencies = [
+    "pytest",
+    "robotframework>=6.1",
+    "decorator",
+    "pytest-is-running",
+]
+keywords = ["pytest", "robotframework", "testing"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Framework :: Pytest",
+    "Framework :: Robot Framework",
+    "Framework :: Robot Framework :: Library",
+    "Framework :: Robot Framework :: Tool",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Software Development :: Quality Assurance",
+]
+
+[project.urls]
+Homepage = "https://github.com/petr-kus/pytest-in-robotframework"
+Repository = "https://github.com/petr-kus/pytest-in-robotframework"
+Issues = "https://github.com/petr-kus/pytest-in-robotframework/issues"
+
+[tool.setuptools.packages.find]
+include = ["pytest_in_robotframework*"]
+namespaces = false
