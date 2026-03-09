@@ -87,7 +87,7 @@ It can also help during migration, when part of a test suite is moving from Robo
 
 ### Robot Framework suite
 
-```robot
+```robotframework
 *** Settings ***
 Documentation     Example integration of pytest under Robot Framework
 Library           TestExperiment.py
